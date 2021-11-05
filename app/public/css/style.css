@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+h3{
+	color: #080D61;
+}
+p{
+	
+	text-align: justify;
+}
+i{
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.sec1{
+	background: url('/img/back.jpg');
+	height: 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+.overlay{
+	background:#080D61;
+	height: 100%;
+	width: 100%;
+	opacity: .7;
+	position: absolute;
+
+}
+.circle{
+	background-color: white;
+	height: 250px;
+	width: 250px;
+	z-index: 1;
+	border-radius: 50%;
+	position: relative;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.circle img{
+	height: 250px;
+	width: 250px;
+	
+	border-radius: 50%;
+	position: absolute;
+}
+
+.majid{
+	left: 50%;
+	top: 65%;
+	position: absolute;
+	color: yellow;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.underline{
+	border-top: 5px double ;
+	width: 70px;
+	margin-left: 5%;
+	color: #080D61;
+	
+}
+.bdr{
+	border-top: 4px solid #080D61;
+	height: 220px;
+	border-left: 4px solid #080D61;
+	border-bottom: 4px solid #080D61;
+	width: 200px;
+	margin-left: 15%;
+}
+.bdr img{
+	margin-left: 200px;
+	height: 250px;
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#sec3{
+	background: #ECECF5;
+
+}
+.sec4 a{
+	margin-left: 50%;
+}
